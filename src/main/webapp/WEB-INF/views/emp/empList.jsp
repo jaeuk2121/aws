@@ -17,6 +17,7 @@ tr{
 </style>
 </head>
 <body>
+<div align="center">
 	<button type="button" onclick="location.href='empInsert'">등록</button>
 	<table>
 		<thead>
@@ -49,6 +50,16 @@ tr{
 			</c:forEach>
 		</tbody>
 	</table>
+	</div>
+	<script>
+	// jsp - servlet - java - html - css - javascript 컴파일순서
+	let msg = `${result}`;
+	
+	if(msg != ''){
+		alert(msg);
+	}
+
+	</script>
 
 </body>
 </html>

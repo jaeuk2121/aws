@@ -32,4 +32,6 @@
 
 	<!-- mapper scan -->
 	<mybatis-spring:scan base-package="com.yedam.app.**.mapper" />
+	
+	
 </beans>
